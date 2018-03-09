@@ -1,0 +1,22 @@
+//lab1 -  github.com/univas/2018-lab1
+
+//tipos de variáveis: int, long, float, double, char
+
+//leitura de dados
+scanf("%i", variavelInteira);
+scanf("%f", variavelReal1);
+scanf("%i %i, %f", variavelInteira1, variavelInteira2, variavelReal2);
+
+//operadores matemáticos: + - * / %(mod)
+//operadores relacionais: >, <, ==, !=, >=, <=
+//operadores lógicos: &&, ||, !
+
+//impressão:
+printf("Mensagem... %i outra mensagem %f \n", variavelInteira1, variavelReal2);
+
+//estrutura de decisão
+
+if(condição) {//a condição deve ser uma variável lógica
+	//bloco executado caso a "condição" for verdadeira
+	//pode ter quantas linhas forem necessárias
+}
