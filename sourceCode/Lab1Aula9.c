@@ -15,50 +15,50 @@ int main() {
 	scanf("%c", &conceito);
 
 	if(conceito == 'A' || conceito == 'a') {
-		printf("Excelente!");
+		printf("Excelente!\n");
 	} else if(conceito == 'B' || conceito == 'b' || conceito == 'C' || conceito == 'c') {
-		printf("Muito bom!");
+		printf("Muito bom!\n");
 	} else if(conceito == 'D' || conceito == 'd') {
-		printf("Bom");
+		printf("Bom\n");
 	} else if(conceito == 'E' || conceito == 'e') {
-		printf("Regular");
+		printf("Regular\n");
 	} else if(conceito == 'F' || conceito == 'f') {
-		printf("Ruim :(");
+		printf("Ruim :(\n");
 	} else {
-		printf("Conceito %c invalido.", conceito);
+		printf("Conceito %c invalido.\n", conceito);
 	}
 	
 	//usando switch-case
 	switch(conceito) {
 		case 'A':
 		case 'a':
-			printf("Excelente!");
+			printf("Excelente!\n");
 			break;//interrompe o bloco
 		
 		case 'B':
 		case 'b':
 		case 'C':
 		case 'c':
-			printf("Muito bom!");
+			printf("Muito bom!\n");
 			break;
 		
 		case 'D':
 		case 'd':
-			printf("Bom");
+			printf("Bom\n");
 			break;
 		
 		case 'E':
-		case 'd':
-			printf("Regular");
+		case 'e':
+			printf("Regular\n");
 			break;
 		
 		case 'F':
 		case 'f':
-			printf("Ruim :(");
+			printf("Ruim :(\n");
 			break;
 		
 		default: //nenhuma das anteriores
-			printf("Conceito %c invalido.", conceito);
+			printf("Conceito %c invalido.\n", conceito);
 	}
 	
 }
