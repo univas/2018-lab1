@@ -30,7 +30,7 @@ int main() {
 	printf("Resultado da média: %i\n", media);
 	//Exercício 1: mostrar a soma de todos os números lidos (exceto o -1)
 	//Exercício 2: mostrar a média aritmética dos valores lidos
-	//Exercício 3: mostrar o maior e o menor valor
+	//Exercício 3: mostrar o maior e o menor valor - será feito em um arquivo separado.
 	
 	/*
 		Utilizar as seguintes sequências de valores para testar o código:
