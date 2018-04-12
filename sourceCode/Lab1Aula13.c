@@ -9,7 +9,7 @@
 int main() {
 	int qtdAlunos;
 	int mat, nota;
-	int melhorMat, melhorNota;
+	int melhorMat, melhorNota = 0;
 	int cont = 0;
 
 	do {
