@@ -2,7 +2,7 @@
 
 #define MAX 5
 
-int main() {
+int main() { 
 	//exercício 3 da lista
 	
 	int vetorUm[MAX];
