@@ -2,6 +2,8 @@
 
 #define MAX 1000
 
+//ler uma frase e imprimir uma palavra por linha
+
 int main() {
 	char vetorDeChar[MAX];
 	int i;

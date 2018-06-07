@@ -2,6 +2,8 @@
 
 #define MAX 10
 
+//exercício 8
+
 int main() {
 	char vetorDeChar[MAX];
 	int i;

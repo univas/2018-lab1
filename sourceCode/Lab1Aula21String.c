@@ -2,6 +2,8 @@
 
 #define MAX 1000
 
+//exercício 8 - usando gets(string)
+
 int main() {
 	char vetorDeChar[MAX];
 	int i;
